@@ -1,3 +1,4 @@
+# BeagleBone RFID 結帳系統
 # BeagleBone RFID Accounting System
 
 ## Introduction
