@@ -1,14 +1,13 @@
-# BeagleBone RFID 結帳系統
-# BeagleBone RFID Accounting System
+# BeagleBone RFID Checkout System
 
 ## Introduction
-This project intends to build a modern Accounting System, replacing conventional barcode by rfid tags, which is able to read and write products and members information.
+This project intends to build a modern Checkout System, replacing conventional barcode by rfid tags, which is able to read and write products and members information.
 
 RFID module communicate with BeagleBone through SPI, this is implemented by [Python RC522 library](https://github.com/ondryaso/pi-rc522 "Title").
 
 Also using [Adafruit Beaglebone GPIO](https://github.com/adafruit/adafruit-beaglebone-io-python "Title") to control buzzer.
 
-Python Tkinter is used to develope a surface to achieve tasks such as adding a new product/member or reading datas from RFID tags(for more details please check demo video).
+Python Tkinter is used to develope a user interface to achieve tasks such as adding a new product/member or reading datas from RFID tags (check out demo video for more details).
 
 ## Material You Need
 * BeagleBone Black
